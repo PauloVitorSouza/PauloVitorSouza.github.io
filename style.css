@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.botoes{
+margin-left: 120px;
+margin-top: 15px;
+display: flex;
+justify-content: space-around;
+height: 30px;
+width: 450px;
+}
+.botaoVender,.botaoCategorias,.botaoProdutos{
+width: 125px;
+color: white;
+font-weight: bolder;
+}
+.botaoCategorias{
+  background-color: royalblue;
+}
+.botaoCategorias:hover{
+  background-color: cyan;
+  animation-timing-function: 0,25s;
+}
+.botaoProdutos{
+background-color: green;
+}
+.botaoVender{
+background-color: orange;
+}
+.grafico{
+  width: 35%;
+  margin-top: 90px;
+  margin-left: 40px;
+}
